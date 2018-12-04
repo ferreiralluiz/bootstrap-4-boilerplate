@@ -7749,5 +7749,13 @@ html {
 
 /* Custom Mixins -------------------- */
 /* Base Styles -------------------- */
+.page-top {
+  background-image: url(../img/Ativo5.svg);
+  background-repeat: no-repeat;
+  background-position: -30% -120px; }
+  @media (min-width: 992px) {
+    .page-top {
+      background-position: -18% -px;
+      min-height: 1175px; } }
 
 /*# sourceMappingURL=main.css.map */

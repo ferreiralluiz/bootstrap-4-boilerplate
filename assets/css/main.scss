@@ -18,3 +18,13 @@
 // 5 - Import layout  styles
 @import '5-layout/index';
 
+.page-top {
+	background-image: url(../img/Ativo5.svg);
+	background-repeat: no-repeat;
+	background-position: -30% -120px;
+
+	@include media-breakpoint-up(lg) {
+		background-position: -18% -px;
+		min-height: 1175px;
+	}
+}
